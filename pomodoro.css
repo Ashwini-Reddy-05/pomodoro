@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.timer {
+    font-size: 72px;
+    font-weight: bold;
+    margin: 40px 0;
+}
+
+button {
+    padding: 15px 30px;
+    margin: 0 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:first-child {
+    background: #28a745;
+    color: white;
+}
+
+button:last-child {
+    background: #dc3545;
+    color: white;
+}
